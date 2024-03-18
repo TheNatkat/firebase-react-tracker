@@ -1,0 +1,151 @@
+/* App.css */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app{
+  position: relative;
+}
+
+.logout{
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 30px 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.logout:hover{
+  color: red;
+}
+
+.profile{
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 30px 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.profile:hover{
+  font-size: medium;
+  color: gray;
+}
+
+/* Login.css */
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5rem;
+  border-radius: 5px;
+}
+
+.form{
+  display: flex;
+  row-gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.links{
+  display: flex;
+  column-gap: 15px;
+  cursor: pointer;
+}
+
+.forgot:hover{
+  color: #ae2a06;
+}
+.new:hover{
+  color: #46840d;
+}
+
+/* SignUp.css */
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5rem;
+  border-radius: 5px;
+}
+
+/* Home.css */
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: scroll;
+  width: 100vw;
+  text-align: center;
+}
+
+.main-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40vh;
+  width: 50vw;
+}
+
+.home form {
+  margin-top: 20px;
+}
+
+.home input, .home textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.home button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+   margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+
+.buttons{
+  display: flex;
+  column-gap: 20px;
+}
